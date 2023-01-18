@@ -1,9 +1,19 @@
-@import "modules/variable";
-@import "modules/typography";
-@import "modules/mixin";
+@import "modules/variable.scss";
+@import "modules/typography.scss";
+@import "modules/mixin.scss";
 
 * {
   margin:0; 
   padding: 0;
 }
 
+header {
+  nav{
+    ul {
+
+      li{
+        background-color: $primary;
+      }
+    }
+  }
+}
