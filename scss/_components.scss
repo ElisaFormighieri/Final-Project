@@ -1,0 +1,25 @@
+@use 'base' as *;
+
+.logo {
+  img {
+    width: 70px;
+    height: 70px;
+  }
+  @include flexLayout;
+  color: $color-primary;
+  border-radius: 50%;
+  border: 3px solid $color-primary;
+  margin-right: -10px;
+}
+
+.main-name {
+  font-family: $font-nunito;
+  font-size: 20px;
+  color: $color-white;
+  @include textStyles();
+}
+
+
+
+
+
