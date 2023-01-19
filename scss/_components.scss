@@ -55,7 +55,152 @@
   height: 400px;
  }
 
+ #about {
+  background-color: $color-secondary;
+  color: $color-primary;
 
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 160px;
 
+    .services-header {
+      text-align: center;
+      h3 {
+        margin-bottom: 12px;
+        font-weight: 300;
+        color: $color-text-secondary;
+      }
 
+      p {
+        font-size: 32px;
+        margin-inline: auto;
+        font-weight: 500;
+      }
+    }
 
+    .cards {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 50%;
+        }
+
+        .card-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 16px 0 80px 0;
+          gap: 8px;
+
+          p {
+            font-weight: 300;
+            color: $color-text-secondary;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+   }
+
+  .start-now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 160px;
+
+    img {
+      width: 100%;
+    }
+
+    .text-container {
+      h1 {
+        text-align: left;
+        font-size: 32px;
+      }
+
+      ul {
+        list-style: none;
+        margin-top: 20px;
+
+        li {
+          display: flex;
+          align-items: center;
+          height: 36px;
+          gap: 12px;
+          justify-content: flex-start;
+          font-size: 18px;
+          font-weight: 500;
+          margin: 12px 0;
+
+          svg {
+            height: 100%;
+          }
+        }
+      }
+
+      button {
+        padding: 16px 48px;
+        font-weight: 700;
+        background-color: $color-primary;
+        color: $color-secondary;
+        margin-top: 16px;
+        border-radius: 24px;
+        font-size: 16px;
+        border: 1px solid $color-primary;
+      }
+
+      button:hover {
+        background-color: $color-secondary;
+        color: $color-primary;
+      }
+    }
+  }
+
+  .conect-customers {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .conect-text {
+      h1 {
+        text-align: left;
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        display: flex;
+        align-items: center;
+        height: 36px;
+        gap: 12px;
+        justify-content: flex-start;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 12px 0;
+
+        svg {
+          height: 100%;
+        }
+      }
+    }
+  }
+}

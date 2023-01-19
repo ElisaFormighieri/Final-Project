@@ -1,6 +1,7 @@
 $color-blue: #3c5a99;;
 $color-white: #fff;
-$color-primary: #191D28 ;
+$color-primary: #1a1e29;
+$color-text-secondary: #31343b;
 $color-secondary: #bbb;
 
 $font-dancingScript: 'Dancing Script', cursive;
@@ -14,16 +15,21 @@ $font-openSans: 'Open Sans', sans-serif;
   text-transform: $transform;
 }
 
-%fullSpace {
-  width: 100%;
-  height: 100%;
-}
-
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: $color-primary;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
 }
