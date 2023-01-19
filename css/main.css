@@ -1,73 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+/* Error: expected "{".
+ *     ,
+ * 212 | >>>>>>> 3e3747cafa8266d36701d4dbb1b321646fda6df0
+ *     |                                                 ^
+ *     '
+ *   scss\_components.scss 212:49  @use
+ *   scss\main.scss 3:1            root stylesheet */
 
-body {
-  background-color: #191D28;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a     \2577 \a 212 \2502  >>>>>>> 3e3747cafa8266d36701d4dbb1b321646fda6df0\d\a     \2502                                                  ^\a     \2575 \a   scss\\_components.scss 212:49  @use\a   scss\\main.scss 3:1            root stylesheet';
 }
-
-.header {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #191D28;
-}
-
-.logo img {
-  width: 40px;
-  height: 40px;
-}
-
-.main-name {
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  color: #fff;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.collapse {
-  display: flex;
-  display: none;
-}
-
-.navbar-nav {
-  display: flex;
-  list-style: none;
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
-  margin-top: 4%;
-}
-
-.title {
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  color: #fff;
-  padding: 0 20px;
-}
-
-.brand {
-  display: flex;
-  text-decoration: none;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.brand h1 {
-  margin: 0px;
-}
-
-.first-img-home {
-  width: 300px;
-  height: 200px;
-}
-
-/*# sourceMappingURL=main.css.map */
