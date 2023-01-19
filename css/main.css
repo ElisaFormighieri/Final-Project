@@ -1,18 +1,208 @@
-/* Error: expected "{".
- *     ,
- * 212 | >>>>>>> 3e3747cafa8266d36701d4dbb1b321646fda6df0
- *     |                                                 ^
- *     '
- *   scss\_components.scss 212:49  @use
- *   scss\main.scss 3:1            root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 212 \2502  >>>>>>> 3e3747cafa8266d36701d4dbb1b321646fda6df0\d\a     \2502                                                  ^\a     \2575 \a   scss\\_components.scss 212:49  @use\a   scss\\main.scss 3:1            root stylesheet';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #1a1e29;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1e29;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.main-name {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.collapse {
+  display: flex;
+  display: none;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.title {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.brand {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.brand h1 {
+  margin: 0px;
+}
+
+.first-img-home {
+  width: 300px;
+  height: 200px;
+}
+
+#about {
+  background-color: #bbb;
+  color: #1a1e29;
+}
+#about .services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+#about .services .services-header {
+  text-align: center;
+}
+#about .services .services-header h3 {
+  margin-bottom: 12px;
+  font-weight: 300;
+  color: #31343b;
+}
+#about .services .services-header p {
+  font-size: 32px;
+  margin-inline: auto;
+  font-weight: 500;
+}
+#about .services .cards {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about .services .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about .services .cards .card img {
+  width: 50%;
+}
+#about .services .cards .card .card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0 80px 0;
+  gap: 8px;
+}
+#about .services .cards .card .card-text p {
+  font-weight: 300;
+  color: #31343b;
+  font-size: 18px;
+}
+#about .start-now {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 160px;
+}
+#about .start-now img {
+  width: 100%;
+}
+#about .start-now .text-container h1 {
+  text-align: left;
+  font-size: 32px;
+}
+#about .start-now .text-container ul {
+  list-style: none;
+  margin-top: 20px;
+}
+#about .start-now .text-container ul li {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  gap: 12px;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 12px 0;
+}
+#about .start-now .text-container ul li svg {
+  height: 100%;
+}
+#about .start-now .text-container button {
+  padding: 16px 48px;
+  font-weight: 700;
+  background-color: #1a1e29;
+  color: #bbb;
+  margin-top: 16px;
+  border-radius: 24px;
+  font-size: 16px;
+  border: 1px solid #1a1e29;
+}
+#about .start-now .text-container button:hover {
+  background-color: #bbb;
+  color: #1a1e29;
+}
+#about .conect-customers {
+  display: flex;
+  flex-direction: column-reverse;
+}
+#about .conect-customers .conect-text h1 {
+  text-align: left;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+#about .conect-customers ul {
+  list-style: none;
+}
+#about .conect-customers ul li {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  gap: 12px;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 12px 0;
+}
+#about .conect-customers ul li svg {
+  height: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
