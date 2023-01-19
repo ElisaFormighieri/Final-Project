@@ -1,18 +1,75 @@
-/* Error: Undefined variable.
- *    ,
- * 40 |   background-color: $color-dark;
- *    |                     ^^^^^^^^^^^
- *    '
- *   scss\_base.scss 40:21  @use
- *   scss\main.scss 1:1     root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 40 \2502    background-color: $color-dark;\a    \2502                      ^^^^^^^^^^^\a    \2575 \a   scss\\_base.scss 40:21  @use\a   scss\\main.scss 1:1     root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-color: #191D28;
+}
+
+.header {
+  width: 100%;
+  background: #191D28;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #191D28;
+  border-radius: 50%;
+  border: 3px solid #191D28;
+  margin-top: 10%;
+  margin-right: -5%;
+  margin-left: 15%;
+}
+.logo img {
+  width: 65px;
+  height: 65px;
+}
+
+.main-name {
+  display: flex;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  margin-right: 7%;
+}
+
+.nav-content {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.title {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.brand {
+  display: flex;
+}
+
+.first-img-home {
+  width: 500px;
+  height: 400px;
+}
+
+/*# sourceMappingURL=main.css.map */

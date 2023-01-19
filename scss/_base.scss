@@ -6,24 +6,12 @@ $color-secondary: #bbb;
 $font-dancingScript: 'Dancing Script', cursive;
 $font-josefinSans: 'Josefin Sans', sans-serif;
 $font-nunito: 'Nunito', sans-serif;
-
-@mixin flexLayout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+$font-openSans: 'Open Sans', sans-serif;
 
 @mixin textStyles($transform: uppercase) {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: $transform;
-}
-
-@mixin centering($topValue) {
-  position: absolute;
-  top: $topValue;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 %fullSpace {
@@ -37,5 +25,5 @@ $font-nunito: 'Nunito', sans-serif;
 }
 
 body {
-  background-color: $color-dark;
+  background-color: $color-primary;
 }

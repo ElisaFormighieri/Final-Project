@@ -2,22 +2,58 @@
 
 .logo {
   img {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
   }
-  @include flexLayout;
   color: $color-primary;
   border-radius: 50%;
   border: 3px solid $color-primary;
-  margin-right: -10px;
+  margin-top: 10%;
+  margin-right: -5%;
+  margin-left: 15%;
 }
 
 .main-name {
+  display: flex;
   font-family: $font-nunito;
   font-size: 20px;
   color: $color-white;
   @include textStyles();
 }
+
+.nav{
+  display: flex;
+  margin-right: 7%;
+}
+
+.nav-content{
+  display: flex;
+  list-style-type: none;
+}
+
+.header-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.title{
+  text-decoration: none;
+  font-family: $font-openSans;
+  font-size: 16px;
+  color: $color-white;
+  padding: 0 20px;
+}
+
+ .brand{
+  display: flex;
+ }
+
+ .first-img-home{
+  width: 500px;
+  height: 400px;
+ }
 
 
 
