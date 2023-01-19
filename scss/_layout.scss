@@ -2,11 +2,19 @@
 
 // header
 .header {
-  width: 100%;
-  background: $color-primary;
+  position: relative;
   display: flex;
-  justify-content: space-between;  
+  flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
+  justify-content: space-between;
+  background-color: $color-primary;
 }
+
+
+
+
+
+
+
 
 
