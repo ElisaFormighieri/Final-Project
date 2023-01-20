@@ -17,6 +17,22 @@ body {
   padding-inline: 2.4rem;
 }
 
+.button-sass {
+  padding: 16px 48px;
+  font-weight: 700;
+  background-color: #1a1e29;
+  color: #bbb;
+  margin-top: 16px;
+  border-radius: 24px;
+  font-size: 16px;
+  border: 1px solid #1a1e29;
+}
+
+.button-sass:hover {
+  background-color: #bbb;
+  color: #1a1e29;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -83,6 +99,7 @@ body {
 #about {
   background-color: #bbb;
   color: #1a1e29;
+  padding-bottom: 160px;
 }
 #about .services {
   display: flex;
@@ -166,20 +183,6 @@ body {
 #about .start-now .text-container ul li svg {
   height: 100%;
 }
-#about .start-now .text-container button {
-  padding: 16px 48px;
-  font-weight: 700;
-  background-color: #1a1e29;
-  color: #bbb;
-  margin-top: 16px;
-  border-radius: 24px;
-  font-size: 16px;
-  border: 1px solid #1a1e29;
-}
-#about .start-now .text-container button:hover {
-  background-color: #bbb;
-  color: #1a1e29;
-}
 #about .conect-customers {
   display: flex;
   flex-direction: column-reverse;
@@ -204,6 +207,59 @@ body {
 }
 #about .conect-customers ul li svg {
   height: 100%;
+}
+
+#contact {
+  padding: 160px 0;
+  color: #bbb;
+}
+#contact .form-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+#contact form div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+#contact form div label span {
+  color: red;
+}
+#contact form div input {
+  height: 40px;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  color: #1a1e29;
+  background-color: #bbb;
+}
+#contact form div textarea {
+  resize: none;
+  height: 120px;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  color: #1a1e29;
+  background-color: #bbb;
+}
+#contact form .button-sass {
+  background-color: #bbb;
+  color: #1a1e29;
+}
+#contact form .button-sass:hover {
+  background-color: #1a1e29;
+  color: #bbb;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 8px;
+  color: #bbb;
 }
 
 /*# sourceMappingURL=main.css.map */

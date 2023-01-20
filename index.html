@@ -43,7 +43,7 @@
     />
     <title>Investment</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="brand">
         <a href="#" class="logo"><img src="./images/logo.png" alt="logo" /></a>
@@ -203,7 +203,7 @@
                 Business-to-consumer long tail.
               </li>
             </ul>
-            <button type="button">Start now</button>
+            <button class="button-sass" type="button">Start now</button>
           </div>
         </article>
 
@@ -280,6 +280,48 @@
           />
         </article>
       </section>
+
+      <section id="contact" class="bg-dark">
+        <article class="form-container wrapper">
+          <div class="form-header">
+            <h1>Let's work together!</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+
+          <form>
+            <div>
+              <label for="name">Name <span>*</span></label>
+              <input type="text" name="name" id="name" required placeholder="Name">
+            </div>
+
+            <div>
+              <label for="email">Email <span>*</span></label>
+              <input type="text" name="email" id="email" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            </div>
+
+            <div>
+              <label for="message">Message <span>*</span></label>
+              <textarea type="text" name="message" id="message" required placeholder="Please share your thoughts with us!"></textarea>
+            </div>
+
+            <div>
+              <button class="button-sass" type="submit">Send</button>
+            </div>
+          </form>
+        </article>
+      </section>
     </main>
+
+    <footer id="footer" class="bg-dark wrapper">
+      <div class="brand">
+        <a href="#" class="logo"><img src="./images/logo.png" alt="logo" /></a>
+
+        <h1 class="main-name">Investment</h1>
+      </div>
+
+      <p>Copyright © 2023 - All rights reserved</p>
+    </footer>
   </body>
 </html>
