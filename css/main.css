@@ -407,6 +407,28 @@ body {
     margin-top: 10px;
     padding: 30px 50px 20px 50px;
   }
+
+  #about .services .cards-sass {
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+  }
+  #about .services .cards-sass .card-sass img {
+    width: 100%;
+  }
+  #about .services .cards-sass .card-sass .card-text-sass {
+    text-align: center;
+  }
+
+  #contact form {
+    width: 600px;
+    margin-inline: auto;
+  }
+
+  #footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 @media screen and (min-width: 1024px) {
   #about .services .cards-sass {

@@ -51,4 +51,39 @@
     margin-top: 10px;
     padding: 30px 50px 20px 50px;
   }
+
+  #about {
+    .services {
+      .cards-sass {
+        flex-direction: row;
+        gap: 100px;
+        justify-content: space-between;
+
+        .card-sass {
+          img {
+            width: 100%;
+          }
+
+          .card-text-sass {
+            text-align: center;
+          }
+        }
+      }
+    }
+
+
+    
+  }
+
+  #contact {
+    form {
+      width: 600px;
+      margin-inline: auto;
+    }
+  }
+
+  #footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
