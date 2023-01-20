@@ -1,0 +1,47 @@
+@use 'base' as *;
+
+@media screen and (min-width: 1024px) {
+  #about {
+    .services {
+      .cards-sass {
+        flex-direction: row;
+        gap: 100px;
+        justify-content: space-between;
+
+        .card-sass {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .start-now {
+      flex-direction: row;
+      gap: 160px;
+      align-items: center;
+    }
+
+    .conect-customers {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .conect-text {
+        width: 50%;
+        padding-top: 120px;
+      }
+    }
+  }
+
+  #contact {
+    form {
+      width: 600px;
+      margin-inline: auto;
+    }
+  }
+
+  #footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
