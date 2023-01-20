@@ -85,14 +85,14 @@
       }
     }
 
-    .cards {
+    .cards-sass {
       margin-top: 40px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
 
-      .card {
+      .card-sass {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -102,7 +102,7 @@
           width: 50%;
         }
 
-        .card-text {
+        .card-text-sass {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -114,6 +114,7 @@
             font-weight: 300;
             color: $color-text-secondary;
             font-size: 18px;
+            text-align: center;
           }
         }
       }
