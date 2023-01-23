@@ -1,0 +1,56 @@
+@use '../base/typography' as *;
+@use '../abstracts/variables' as *;
+
+#contact {
+  padding: 160px 0;
+  color: $color-secondary;
+
+  .form-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  form {
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+
+      label {
+        span {
+          color: red;
+        }
+      }
+
+      input {
+        height: 40px;
+        padding: 12px;
+        border: 1px solid $color-secondary;
+        border-radius: 8px;
+        color: $color-primary;
+        background-color: $color-secondary;
+      }
+
+      textarea {
+        resize: none;
+        height: 120px;
+        padding: 12px;
+        border: 1px solid $color-secondary;
+        border-radius: 8px;
+        color: $color-primary;
+        background-color: $color-secondary;
+      }
+    }
+
+    .button-sass {
+      background-color: $color-secondary;
+      color: $color-primary;
+    }
+
+    .button-sass:hover {
+      background-color: $color-primary;
+      color: $color-secondary;
+    }
+  }
+}

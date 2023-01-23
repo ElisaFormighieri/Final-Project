@@ -1,0 +1,12 @@
+@use '../base/typography' as *;
+@use '../abstracts/variables' as *;
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 8px;
+  color: $color-secondary;
+}

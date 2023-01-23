@@ -1,0 +1,78 @@
+@use '../base/typography' as *;
+@use '../abstracts/variables' as *;
+
+.total-home-container {
+  .home-left-container {
+    .main-text {
+      text-align: center;
+      box-sizing: border-box;
+      padding: 30px 33px 20px 33px;
+
+      h1 {
+        color: $color-white;
+        font-size: 35px;
+        font-weight: 400;
+        font-family: $font-openSans;
+        line-height: 49px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: $color-white;
+        font-size: 16px;
+        font-family: $font-openSans;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+  }
+
+  .home-right-container {
+    .first-img-home-container {
+      display: flex;
+      justify-content: center;
+
+      .first-img-home {
+        margin-top: 18px;
+        padding: 0 20px;
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        border-radius: 27px;
+        max-width: 530px;
+      }
+    }
+
+    .second-container-img {
+      display: flex;
+      justify-content: center;
+
+      .second-img-home {
+        margin-top: 13px;
+        padding-left: 12px;
+        width: 60%;
+        height: auto;
+        max-height: 120px;
+        max-width: 200px;
+        border-radius: 20px 0 0 20px;
+        margin-bottom: 65px;
+      }
+
+      .third-img-home {
+        margin-top: 13px;
+        padding-right: 15px;
+        width: 35%;
+        height: auto;
+        max-height: 120px;
+        max-width: 200px;
+        border-radius: 0 20px 20px 0;
+        margin-bottom: 65px;
+      }
+    }
+  }
+}
