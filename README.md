@@ -30,3 +30,7 @@ Clone this repository and run the command below to install the project's depende
 Run this command to start sass from compiling sass to css
 
 > npm run sass
+
+## Team
+
+| [![Elisa Formighieri](https://avatars.githubusercontent.com/u/69126878?v=4)](https://github.com/ElisaFormighieri) | [![Rodrigo Bonatti](https://avatars.githubusercontent.com/u/92190494?v=4)](https://github.com/Bonattii)
