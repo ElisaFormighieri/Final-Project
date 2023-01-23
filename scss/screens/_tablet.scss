@@ -2,54 +2,59 @@
 @use '../abstracts/variables' as *;
 
 @media screen and (min-width: 700px){
+  .total-home-container {
+    .home-left-container {
+      .main-text {
+        margin-top: 10px;
+        padding: 30px 50px 20px 50px;
+      }
 
-  .first-img-home{
-    height: 230px;
-    max-width: 500px;
-    width: 500px;
-  }
+      .buttons {
+        flex-direction: row !important;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 15px;
 
-  .second-container-img{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
+        .button-1 {
+          margin-right: 15px;
+          width: 35%;
+        }
 
-  .second-img-home{
-    max-width: 270px;
-    max-height: 145px;
-    width: 240px;
-    height: auto;
-    padding-left: 7px;
-  }
+        .button-2 {
+          width: 35%;
+        }
+      }
+    }
 
-  .third-img-home{
-    max-width: 250px;
-    max-height: 145px;
-    width: 215px;
-    height: auto;
-    margin-right: 5px;
-  }
+    .home-right-container {
+      .first-img-home {
+        height: 230px;
+        max-width: 500px;
+        width: 500px;
+      }
 
-  .buttons{
-    flex-direction: row !important;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 15px;
-  }
+      .second-container-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
 
-  .button-1{
-    margin-right: 15px;
-    width: 35%;
-  }
+        .second-img-home {
+          max-width: 270px;
+          max-height: 145px;
+          width: 240px;
+          height: auto;
+          padding-left: 7px;
+        }
+      }
 
-  .button-2{
-    width: 35%;
-  }
-
-  .main-text{
-    margin-top: 10px;
-    padding: 30px 50px 20px 50px;
+      .third-img-home {
+        max-width: 250px;
+        max-height: 145px;
+        width: 215px;
+        height: auto;
+        margin-right: 5px;
+      }
+    }
   }
 
   #about {
@@ -70,9 +75,6 @@
         }
       }
     }
-
-
-
   }
 
   #contact {
