@@ -12,10 +12,10 @@
   margin-bottom: 16px;
   display: inline-block;
 
-  background-color: $color-blue;
-  border-color: $color-blue;
+  background-color: $color-secondary;
+  border-color: $color-secondary;
   color: $color-primary;
-  box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: $color-secondary;
   border: 2px solid transparent;
   text-decoration: none;
 }
@@ -32,8 +32,10 @@
 
 .button-1:hover {
   text-decoration: none;
-  color: $color-primary;
+  color: $color-white;
   opacity: 0.9;
+  background-color: $color-primary;
+
 }
 
 .button-2:hover {

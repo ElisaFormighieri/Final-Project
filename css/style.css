@@ -179,10 +179,10 @@ body {
   border-radius: 5rem;
   margin-bottom: 16px;
   display: inline-block;
-  background-color: #09c7d4;
-  border-color: #09c7d4;
+  background-color: #bbb;
+  border-color: #bbb;
   color: #1a1e29;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: #bbb;
   border: 2px solid transparent;
   text-decoration: none;
 }
@@ -197,8 +197,9 @@ body {
 
 .button-1:hover, .button-2:hover {
   text-decoration: none;
-  color: #1a1e29;
+  color: #fff;
   opacity: 0.9;
+  background-color: #1a1e29;
 }
 
 .button-2:hover {
@@ -379,7 +380,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 160px;
+  padding-bottom: 120px;
 }
 #about .start-now img {
   width: 100%;
