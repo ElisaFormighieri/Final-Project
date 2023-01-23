@@ -20,3 +20,13 @@ Investment is a landing page creates for the Final Project to Foundations of Obj
 ![image](https://user-images.githubusercontent.com/69126878/214144831-bd22dfef-a72d-45b8-9852-471437db7b25.png)
 ![image](https://user-images.githubusercontent.com/69126878/214144891-c84658f3-c40a-4800-bbc0-fa44d3683df4.png)
 ![image](https://user-images.githubusercontent.com/69126878/214144983-8edb12b7-6607-47f8-8775-1bbd6426036c.png)
+
+## Starter Application
+
+Clone this repository and run the command below to install the project's dependencies
+
+> npm install
+
+Run this command to start sass from compiling sass to css
+
+> npm run sass
